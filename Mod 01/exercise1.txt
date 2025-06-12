@@ -1,0 +1,7 @@
+// Exercise 1: Compute the number of miles per gallon you get with your car.
+start
+gastankSize = integer
+milesDriven = integer
+milesperGallon = gastankSize / milesDriven
+print(milesperGallon)
+end

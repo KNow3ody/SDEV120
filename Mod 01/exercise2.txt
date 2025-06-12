@@ -1,0 +1,13 @@
+// Exercise 2: Describe computing the daily cost of your rent in a 30-day month. 
+start
+monthlyRent = rentPrice
+month = "string"
+daysinMonth = number
+// There are two different ways of accomplishing this program. For something 
+// simple, you can manually declare each month with the number of days.
+// You can also create an if, else if, and else statement to parse through
+// which month was declared in the month variable. You can either use the name or 
+// you can use the number of the month. 
+dailyCost = monthlyRent / daysinMonth
+print(dailyCost)
+end

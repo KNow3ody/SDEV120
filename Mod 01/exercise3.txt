@@ -1,0 +1,14 @@
+// Exercise 3: A program that shows available discretionary spending.
+start
+monthlyPay = number
+rent = number
+utilities = number
+groceryBills = number
+// Discretionary spending will be declared by writing a simple algorithm that
+// adds rent, utilities, and grocery bills together and then subtracts the total
+// from monthly pay. 
+totalBills = rent + utilities + groceryBills
+discretionarySpending = monthlyPay - totalBills
+print(totalBills)
+print(discretionarySpending)
+end
